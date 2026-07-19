@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-deploy-skill",
+  "version": "1.0.0",
+  "description": "A reusable AI agent skill for deploying projects to Cloudflare with automated URL retrieval",
+  "main": "deploy.ts",
+  "type": "module",
+  "bin": {
+    "cloudflare-deploy": "./deploy.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.1.2"
+  },
+  "keywords": [
+    "cloudflare",
+    "pages",
+    "workers",
+    "deploy",
+    "skills",
+    "agent"
+  ],
+  "author": "peliter",
+  "license": "MIT"
+}
